@@ -1,0 +1,19 @@
+body{
+  background-color: #6ba8a9;
+  color: #263f44;
+  font-family: system-ui;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e5dfdf;
+  border-width: 5px;
+  width: 30%;
+}
+h1{
+  color: #222831;
+}
+h3{
+  font-family: sans-serif;
+  color: #1d4d4f;
+}
