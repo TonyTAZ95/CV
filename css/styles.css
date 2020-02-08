@@ -1,3 +1,5 @@
+/****************** TAG SELECTORS ***********************/
+/* APPLIED TO SAME TIPE ELEMENTS*/
 body{
   background-color: #6ba8a9;
   color: #263f44;
@@ -14,6 +16,22 @@ h1{
   color: #222831;
 }
 h3{
+  background-color: #1d4d4f;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #1d4d4f;
   font-family: sans-serif;
-  color: #1d4d4f;
+  color: white;
+}
+
+/****************** CLASS SELECTORS ***********************/
+/* IT CAN BE USED ON MANY ELEMENTS OF DE HTML */
+.work-image{
+  border-radius: 30%;
+}
+
+/****************** ID SELECTORS ***********************/
+/* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
+#profile-picture{
+  border-radius: 20%;
 }
