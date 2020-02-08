@@ -24,6 +24,9 @@ h3{
   color: white;
 }
 
+table{
+  cellspacing="10";
+}
 /****************** CLASS SELECTORS ***********************/
 /* IT CAN BE USED ON MANY ELEMENTS OF DE HTML */
 .work-image{
@@ -34,4 +37,15 @@ h3{
 /* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
 #profile-picture{
   border-radius: 100%;
+}
+
+#table-background{
+  background-image: url(https://lh3.googleusercontent.com/proxy/wy9DT-beqZhZ8XJJpmmBkurgHHH5gXYv2PRMrCnZgp_e-uOj-fiW9qqQRJAYCF6oatG6TT-CPKs_2ZBZ6VsfcpRTJwgKOR4vzpGTONqehWPcQRmG3lZa-PD5TK1bYg47uRAVUtX-C-c0cooTWsxtkc8);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#profile-description{
+  background-color: RGBA( 255 , 255 , 255, 0.8 );
+  border-radius: 30px;
 }
