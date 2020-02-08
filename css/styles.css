@@ -27,11 +27,11 @@ h3{
 /****************** CLASS SELECTORS ***********************/
 /* IT CAN BE USED ON MANY ELEMENTS OF DE HTML */
 .work-image{
-  border-radius: 30%;
+  border-radius: 10px;
 }
 
 /****************** ID SELECTORS ***********************/
 /* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
 #profile-picture{
-  border-radius: 20%;
+  border-radius: 100%;
 }
