@@ -29,6 +29,10 @@ h3{
 .work-image{
   border-radius: 10px;
 }
+.experience-data{
+  background-color: #ffffff44;
+  border-radius: 30px;
+}
 
 /****************** ID SELECTORS ***********************/
 /* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
@@ -41,4 +45,9 @@ h3{
 #pdescription{
   background-color: #ffffff44;
   border-radius: 30px;
+}
+#thabilities{
+  background-color: #ffd08244;
+  border-radius: 30px;
+  cellspacing: 10px;
 }
