@@ -32,15 +32,13 @@ h3{
 
 /****************** ID SELECTORS ***********************/
 /* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
-#profile-picture{
+#ppicture{
   border-radius: 100%;
 }
-
-#table-background{
+#tbackground{
   background-size: 100%;
 }
-
-#profile-description{
+#pdescription{
   background-color: #ffffff44;
   border-radius: 30px;
 }
