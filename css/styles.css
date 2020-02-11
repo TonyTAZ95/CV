@@ -4,7 +4,6 @@ body{
   background-color: #6ba8a9;
   color: #263f44;
   font-family: Archivo;
-  padding: 10px;
 }
 hr{
   border-style: none;
@@ -33,6 +32,7 @@ h3{
 .experience-data{
   background-color: #ffffff44;
   border-radius: 30px;
+  padding: 10px;
 }
 
 /****************** ID SELECTORS ***********************/
@@ -46,6 +46,7 @@ h3{
 #pdescription{
   background-color: #ffffff44;
   border-radius: 30px;
+  padding: 10px;
 }
 #thabilities{
   background-color: #ffd08244;
