@@ -1,7 +1,7 @@
 /****************** TAG SELECTORS ***********************/
 /* APPLIED TO SAME TIPE ELEMENTS*/
 body{
-  background-color: #6ba8a9;
+  background-color: lightblue;
   color: #263f44;
   font-family: Archivo;
 }
@@ -16,14 +16,32 @@ h1{
   color: #222831;
 }
 h3{
-  background-color: #1d4d4f;
+  background-color: #266466;
   border-style: solid;
   border-radius: 30px;
   border-color: #1d4d4f;
   font-family: sans-serif;
-  color: white;
+  color: black;
 }
 
+div{
+  border-radius: 30px;
+  font-size: 20px; 
+  padding: 20px;
+  color: black;
+  background-color: #266466;
+  width: 50%;
+}
+
+A:link {
+  text-decoration: none; 
+}
+
+A:visited {
+  color: black;  
+  font-family: arial; 
+  text-decoration: none;
+}
 /****************** CLASS SELECTORS ***********************/
 /* IT CAN BE USED ON MANY ELEMENTS OF DE HTML */
 .work-image{
@@ -35,10 +53,29 @@ h3{
   padding: 10px;
 }
 
+.habilidades{
+  background-color: #6ba8a9;
+  color: black;
+  width: 70%;
+  text-align: left;
+  padding: 5px;
+  border-radius: 10px;
+  height: 20px;
+}
+
+.resaltado{
+  color: rgb(0, 170, 57);
+  font-size: 20px;
+}
 /****************** ID SELECTORS ***********************/
 /* IT CAN BE USED ONLY IN ONE ELEMENT OF DE HTML */
 #ppicture{
   border-radius: 100%;
+  max-width: 100%;
+}
+
+#pshield{
+  max-width: 100%;
 }
 #tbackground{
   background-size: 100%;
@@ -47,9 +84,9 @@ h3{
   background-color: #ffffff44;
   border-radius: 30px;
   padding: 10px;
+  width: 60%;
 }
 #thabilities{
   background-color: #ffd08244;
   border-radius: 30px;
-  cellspacing: 10px;
 }
